@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A test-retest resting and cognitive state EEG dataset",
-  "description": "A test-retest EEG dataset comprising resting-state (eyes open and closed) and cognitive-state recordings from 60 participants across three experimental sessions. The dataset includes electroencephalographic measurements alongside assessments of sleep quality, emotional state, mental health, and mind-wandering characteristics, designed to support investigations of neural correlates across different cognitive and resting conditions.",
-  "methods_description": "EEG data were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Recordings included resting-state conditions (eyes open and closed) and cognitive tasks (subtraction, music listening, and memory tasks) collected from September 2019 to April 2021.",
+  "description": "A test-retest EEG dataset comprising resting-state (eyes closed and open) and cognitive-state recordings from 60 participants across three experimental sessions. The dataset includes electroencephalographic measurements alongside assessments of sleep quality, emotional state, mental health, and mind-wandering tendencies, designed to support investigations of neural correlates across different brain states and their stability over time.",
+  "methods_description": "EEG recordings were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Data collection spanned from September 2019 to April 2021, encompassing resting-state conditions (eyes closed and open) and cognitive tasks (subtraction, music listening, and memory tasks).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,25 +26,37 @@
       "term": "cognitive state"
     },
     {
-      "term": "test-retest reliability"
+      "term": "test-retest analysis"
     },
     {
       "term": "mental imagery"
     },
     {
-      "term": "mind-wandering"
-    },
-    {
-      "term": "eyes open"
+      "term": "brain oscillations"
     },
     {
       "term": "eyes closed"
+    },
+    {
+      "term": "eyes open"
     },
     {
       "term": "sleep quality"
     },
     {
       "term": "emotional state"
+    },
+    {
+      "term": "mind-wandering"
+    },
+    {
+      "term": "subtraction task"
+    },
+    {
+      "term": "music listening"
+    },
+    {
+      "term": "memory task"
     }
   ],
   "related_identifiers": [
