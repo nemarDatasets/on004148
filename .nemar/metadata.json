@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004148",
-  "source": "openneuro",
-  "source_id": "ds004148",
+  "pipeline_stage": "enriched",
   "title": "A test-retest resting and cognitive state EEG dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yulin Wang": {},
     "Wei Duan": {},
@@ -11,22 +11,99 @@
     "Debo Dong": {},
     "Xu Lei": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004148.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004148",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004148",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004148",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "This dataset has received funding supproted from the National Natural Science Foundation of China (grant number 31971028) and the Major Project of Medicine Science and Technology of PLA (AWS17J012)"
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "A longitudinal test-retest EEG dataset comprising resting-state (eyes open and closed) and cognitive task recordings from 60 participants across three experimental sessions. The dataset includes concurrent measurements of sleep quality, emotional state, mental health indicators, and mind-wandering propensity, providing a comprehensive resource for investigating the neurophysiological correlates of brain states and their stability over time.",
+  "methods_description": "EEG data were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Recordings encompassed resting-state conditions (eyes open and closed) and cognitive tasks (subtraction, music listening, and memory tasks) across three experimental sessions conducted between September 2019 and April 2021.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "eyes open"
+    },
+    {
+      "term": "eyes closed"
+    },
+    {
+      "term": "cognitive state"
+    },
+    {
+      "term": "test-retest reliability"
+    },
+    {
+      "term": "mind-wandering"
+    },
+    {
+      "term": "sleep quality"
+    },
+    {
+      "term": "emotional state"
+    },
+    {
+      "term": "subtraction task"
+    },
+    {
+      "term": "music listening"
+    },
+    {
+      "term": "memory task"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "31971028"
+    },
+    {
+      "funder_name": "Major Project of Medicine Science and Technology of PLA",
+      "award_number": "AWS17J012"
+    }
+  ],
+  "source_hash": "5f624dc0300223e93df6e313b25ef252c38acc0b8e722fef61f766d6d395a338"
 }
