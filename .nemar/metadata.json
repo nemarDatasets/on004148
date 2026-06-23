@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A test-retest resting and cognitive state EEG dataset",
+  "description": "A test-retest EEG dataset comprising resting-state (eyes open and closed) and cognitive-state recordings from 60 participants across three experimental sessions. The dataset includes electroencephalographic measurements alongside assessments of sleep quality, emotional state, mental health, and mind-wandering characteristics, designed to support investigations of neural correlates across different cognitive and resting conditions.",
+  "methods_description": "EEG data were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Recordings included resting-state conditions (eyes open and closed) and cognitive tasks (subtraction, music listening, and memory tasks) collected from September 2019 to April 2021.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,41 @@
     "Debo Dong": {},
     "Xu Lei": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004148.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "cognitive state"
+    },
+    {
+      "term": "test-retest reliability"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "mind-wandering"
+    },
+    {
+      "term": "eyes open"
+    },
+    {
+      "term": "eyes closed"
+    },
+    {
+      "term": "sleep quality"
+    },
+    {
+      "term": "emotional state"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004148",
       "identifier_type": "URL",
@@ -31,68 +62,11 @@
       "identifier": "10.18112/openneuro.ds004148",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".png",
-    ".set",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "A longitudinal test-retest EEG dataset comprising resting-state (eyes open and closed) and cognitive task recordings from 60 participants across three experimental sessions. The dataset includes concurrent measurements of sleep quality, emotional state, mental health indicators, and mind-wandering propensity, providing a comprehensive resource for investigating the neurophysiological correlates of brain states and their stability over time.",
-  "methods_description": "EEG data were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Recordings encompassed resting-state conditions (eyes open and closed) and cognitive tasks (subtraction, music listening, and memory tasks) across three experimental sessions conducted between September 2019 and April 2021.",
-  "keywords": [
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "resting-state EEG"
-    },
-    {
-      "term": "eyes open"
-    },
-    {
-      "term": "eyes closed"
-    },
-    {
-      "term": "cognitive state"
-    },
-    {
-      "term": "test-retest reliability"
-    },
-    {
-      "term": "mind-wandering"
-    },
-    {
-      "term": "sleep quality"
-    },
-    {
-      "term": "emotional state"
-    },
-    {
-      "term": "subtraction task"
-    },
-    {
-      "term": "music listening"
-    },
-    {
-      "term": "memory task"
+      "identifier": "10.18112/openneuro.ds004148.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -105,5 +79,26 @@
       "award_number": "AWS17J012"
     }
   ],
-  "source_hash": "5f624dc0300223e93df6e313b25ef252c38acc0b8e722fef61f766d6d395a338"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "100.0 GB (3610 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "7302b5c825863a460e6fe2d23713184cb8741757eb5846493b91509c2c4eac69"
 }
