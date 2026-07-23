@@ -1,0 +1,31 @@
+{
+  "dataset_id": "on004148",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:17:16.149Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds004148"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 3607,
+    "files_declared": 3609,
+    "bytes_present": 100008975944,
+    "bytes_declared": 100121525766,
+    "pct_bytes": 0.9988758678901574
+  },
+  "missing": [
+    {
+      "path": "derivatives/preprocessed data/preprocessed_data/sub22_02_EC.set",
+      "key": "MD5E-s73824136--aa04d8f3cac55e3b5495a4287a6abc4b.set",
+      "declared_size": 73824136,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-20/ses-session3/eeg/sub-20_ses-session3_task-memory_eeg.eeg",
+      "key": "MD5E-s36600000--e74ebe9ed90673413fdc14e3adec59b9.eeg",
+      "declared_size": 36600000,
+      "reason": "zero_byte"
+    }
+  ]
+}
