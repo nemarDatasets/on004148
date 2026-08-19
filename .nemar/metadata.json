@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A test-retest resting and cognitive state EEG dataset",
-  "description": "A test-retest EEG dataset comprising resting-state (eyes closed and open) and cognitive-state recordings from 60 participants across three experimental sessions. The dataset includes electroencephalographic measurements alongside assessments of sleep quality, emotional state, mental health, and mind-wandering tendencies, designed to support investigations of neural correlates across different brain states and their stability over time.",
-  "methods_description": "EEG recordings were acquired using a 64-electrode Brain Products system at 500 Hz sampling frequency with impedances maintained below 5 kΩ. Data collection spanned from September 2019 to April 2021, encompassing resting-state conditions (eyes closed and open) and cognitive tasks (subtraction, music listening, and memory tasks).",
+  "description": "This dataset comprises resting-state (eyes closed, eyes open) and cognitive-state (subtraction, music, memory) EEG recordings collected from 60 participants across three experimental sessions, designed to support test-retest reliability analyses. The recordings are accompanied by measures related to sleep, emotion, mental health, and mind-wandering, providing a rich resource for studying stability of brain activity across cognitive states over time.",
+  "methods_description": "EEG data were recorded using a Brain Products GmbH system with 64 electrodes at a sampling frequency of 500 Hz, with impedances maintained below 5k Ohms. Data collection occurred over three sessions between September 2019 and April 2021, covering resting states (eyes closed, eyes open) and cognitive tasks (subtraction, music, memory).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,53 +20,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "resting-state EEG"
+      "term": "resting state"
     },
     {
       "term": "cognitive state"
     },
     {
-      "term": "test-retest analysis"
+      "term": "test-retest reliability"
     },
     {
       "term": "mental imagery"
-    },
-    {
-      "term": "brain oscillations"
-    },
-    {
-      "term": "eyes closed"
-    },
-    {
-      "term": "eyes open"
-    },
-    {
-      "term": "sleep quality"
-    },
-    {
-      "term": "emotional state"
-    },
-    {
-      "term": "mind-wandering"
-    },
-    {
-      "term": "subtraction task"
-    },
-    {
-      "term": "music listening"
-    },
-    {
-      "term": "memory task"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004148",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004148",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -79,6 +47,11 @@
       "identifier": "10.18112/openneuro.ds004148.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004148",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
