@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A test-retest resting and cognitive state EEG dataset",
-  "description": "This dataset comprises resting-state (eyes closed, eyes open) and cognitive-state (subtraction, music, memory) EEG recordings collected from 60 participants across three experimental sessions, designed to support test-retest reliability analyses. The recordings are accompanied by measures related to sleep, emotion, mental health, and mind-wandering, providing a rich resource for studying stability of brain activity across cognitive states over time.",
-  "methods_description": "EEG data were recorded using a Brain Products GmbH system with 64 electrodes at a sampling frequency of 500 Hz, with impedances maintained below 5k Ohms. Data collection occurred over three sessions between September 2019 and April 2021, covering resting states (eyes closed, eyes open) and cognitive tasks (subtraction, music, memory).",
+  "description": "This dataset provides test-retest EEG recordings from 60 participants across three experimental sessions. It includes resting states (eyes closed, eyes open) and cognitive states (subtraction, music, memory). Recordings are accompanied by measures of sleep, emotion, mental health, and mind-wandering.",
+  "methods_description": "EEG was recorded with a Brain Products system using 64 electrodes at a 500 Hz sampling rate, with impedances kept below 5 kΩ. Data were collected between September 2019 and April 2021 across three sessions per participant.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,9 +15,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "Electroencephalography"
     },
     {
       "term": "resting state"
@@ -30,6 +28,9 @@
     },
     {
       "term": "mental imagery"
+    },
+    {
+      "term": "EEG"
     }
   ],
   "related_identifiers": [
@@ -70,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "100.0 GB (3610 files)"
+    "93.24 GB (3610 files)"
   ],
   "formats": [
     ".eeg",
