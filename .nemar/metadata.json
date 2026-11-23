@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A test-retest resting and cognitive state EEG dataset",
-  "description": "This dataset provides test-retest EEG recordings from 60 participants across three experimental sessions. It includes resting states (eyes closed, eyes open) and cognitive states (subtraction, music, memory). Recordings are accompanied by measures of sleep, emotion, mental health, and mind-wandering.",
-  "methods_description": "EEG was recorded with a Brain Products system using 64 electrodes at a 500 Hz sampling rate, with impedances kept below 5 kΩ. Data were collected between September 2019 and April 2021 across three sessions per participant.",
+  "description": "A test-retest EEG dataset of 60 participants recorded across three sessions during resting states (eyes closed, eyes open) and cognitive states (subtraction, music, memory). It also includes measures of sleep, emotion, mental health, and mind-wandering. The dataset supports research on the reliability and stability of EEG measures across resting and cognitive conditions.",
+  "methods_description": "EEG was recorded with a Brain Products system using 64 electrodes at a 500 Hz sampling frequency, with impedances kept below 5 kΩ. Data were collected from September 2019 to April 2021 across three experimental sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,7 +15,9 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "resting state"
@@ -30,7 +32,7 @@
       "term": "mental imagery"
     },
     {
-      "term": "EEG"
+      "term": "mind-wandering"
     }
   ],
   "related_identifiers": [
@@ -45,14 +47,14 @@
       "relation_type": "IsVersionOf"
     },
     {
-      "identifier": "10.18112/openneuro.ds004148.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on004148",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004148.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -63,6 +65,10 @@
     {
       "funder_name": "Major Project of Medicine Science and Technology of PLA",
       "award_number": "AWS17J012"
+    },
+    {
+      "funder_name": "National Key Research and Development Program of China",
+      "award_number": "2021YFC2501500"
     }
   ],
   "resource_type_general": "Dataset",
@@ -86,5 +92,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "7302b5c825863a460e6fe2d23713184cb8741757eb5846493b91509c2c4eac69"
+  "source_hash": "1666b01cef2c10a7faaff770f91a4979449b86681f102f3917605abc70cb9f8e"
 }
